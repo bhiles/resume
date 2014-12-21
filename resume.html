@@ -1,0 +1,474 @@
+<!doctype html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    
+    <title>Bennett Hiles</title>
+
+    <!-- Styling -->
+    <style>
+      body {
+      background: #fff;
+      font: 16px 'Open Sans' Helvetica, Arial, sans-serif;
+      line-height: 1.4;
+      margin: 0 0;
+      margin-bottom: 100px;
+      }
+      em {
+      color: #999;
+      }
+      p {
+      line-height: 1.6;
+      font-size: 90%;
+      }
+
+      a {
+      color: #2C85B1;
+      text-decoration: none;
+      font-weight: 400;
+      }
+      ul {
+      margin-bottom: 0;
+      }
+      section {
+      margin: 1em 0 2em;
+      }
+      blockquote {
+      margin: 0;
+      margin-bottom: 1em;
+      }
+      #resume {
+      margin: 2em 2em 2em 2.5em;
+      max-width: 760px;
+      }
+
+      /* Resume heading */
+      .heading header { 
+
+      }
+
+      .heading header h1 {
+      font-size: 180%;
+      margin: 0.5em 0;
+      font-weight: 600;
+      }
+
+      .heading header h2 {
+      font-size: 140%;
+      margin: 0;
+      font-weight: 400;
+      }
+
+      .heading header .contact .detail {
+      margin: 0 1em 0 0;
+      }
+
+      .profile {
+      display: inline-block;
+      margin: 0 1em 0 0;
+      }
+
+      .profile strong,
+      .profile span {
+      display: inline-block;
+      margin: 0 1em 0 0;
+      }
+      /* section / line breaks */
+      section h2 {
+      font-size: 140%;
+      margin: 0 0 1em;
+      text-transform: uppercase;
+      color: #BC1B39;
+      font-weight: 400;
+      }
+
+      /* Experience items */
+      .item {
+      margin: 0 0 1em;
+      padding: 0 0 1em;
+      border-bottom: 1px solid #F2EBEC;
+      }
+
+      .item:last-child {
+      border-bottom: none;
+      }
+
+
+      .item header h3 {
+      margin: 0.2em 1em 0.2em 0;
+      display: inline-block;
+      font-weight: 600;
+      }
+
+      .item header a {
+      display: inline-block;
+      }
+
+      .item .position {
+      font-weight: 600;
+      font-size: 100%;
+      margin: 0.2em 1em 0.2em 0;
+      }
+
+      .item .startDate,
+      .item .endDate {
+      color: #6B6B6B;
+      }
+
+      .item .highlights {
+      list-style: square;
+      font-size: 90%;
+      }
+
+      /* skills */
+      #skills .item {
+      margin: 0.5em 0;
+      padding: 0 0 0.5em;
+      font-size: 90%;
+      }
+
+      #skills .item .name {
+      font-weight: 600;
+      display: inline-block;
+      text-transform: uppercase;
+      margin: 0 1em 0 0;
+      width: 23%;
+      vertical-align: top;
+      }
+
+      #skills .item .keywords {
+      display: inline-block;
+      width: 70%;
+      vertical-align: top;
+      }
+
+      /* education */
+      #education .item {
+      display: inline-block;
+      vertical-align: top;
+      width: 49.5%;
+      border-bottom: 0;
+      }
+    </style>
+    <!-- End Styling -->
+
+    <style media="print">
+      body { font-size: 12px; }
+    </style>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    
+  </head>
+
+  <body>
+    
+    <div id="resume">
+
+      <!-- Heading + Summary -->
+      <section class="heading">
+	<header>
+	  <h1>Bennett Hiles</h1>
+	  <div class="contact">
+	    <span class="detail">
+	      <a href="mailto:bennetthiles@gmail.com">bennetthiles@gmail.com</a>
+	    </span>
+	    <span class="detail">
+	      <a href="http://about.bennetthiles.com">http://about.bennetthiles.com</a>
+	    </span>
+            <span class="detail">
+	      New York, NY
+	    </span>
+	  </div>
+	</header>
+
+        <ul class="highlights">
+          <li>Senior backend software engineer with 7 years of experience</li>
+          <li>Comprehensive skills in designing and building highly available web infrastructure and APIs</li>
+          <li>Considerable involvement with operational tasks</li>
+          <li>Substantial knowledge of Java, Ruby, and, most recently, Clojure</li>
+          <li>Excellent team player and communicator, with proven leadership and managerial skills</li>
+          <li>Exemplary ownership and dedication</li>
+          <li>Talented at finding inefficiencies and implementing solutions</li>
+        </ul>
+
+        <br/>
+
+	<div class="profile">
+	  <strong class="network">
+	    <a href="http://www.linkedin.com/in/bennetthiles">LinkedIn</a>
+	  </strong>
+	</div>
+	<div class="profile">
+	  <strong class="network">
+	    <a href="http://github.com/bhiles">GitHub</a>
+	  </strong>
+	</div>
+
+      </section>
+      <!-- End Heading + Summary -->
+
+
+      <!-- Skills -->
+      <section id="skills">
+	<h2>Skills</h2>
+	<div class="item">
+	  <div class="name">
+	    Languages
+	  </div>
+	  <div class="keywords">
+	    Java,
+	    Clojure,
+	    Ruby
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="name">
+	    Cloud Tools
+	  </div>
+	  <div class="keywords">
+	    EC2,
+	    S3,
+	    Digital Ocean
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="name">
+	    Frameworks
+	  </div>
+	  <div class="keywords">
+	    Dropwizard,
+	    Rails,
+	    Sinatra
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="name">
+	    Big Data Tools
+	  </div>
+	  <div class="keywords">
+	    Cascalog,
+	    Hive
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="name">
+	    Data Stores/Queues
+	  </div>
+	  <div class="keywords">
+	    PostgreSQL,
+	    MySQL,
+	    Redis,
+	    Riak,
+	    RabbitMQ
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="name">
+	    DevOps Tools
+	  </div>
+	  <div class="keywords">
+	    Jenkins,
+	    Vagrant,
+	    Fabric
+	  </div>
+	</div>
+      </section>
+      <!-- End Skills -->
+
+      <!-- Work Experiences -->
+      <section class="experience">
+	<h2>Experience</h2>
+	<section class="item">
+	  <header>
+	    <h3 class="name">awe.sm (acquired by Unified)</h3>
+	  </header>
+	  <span class="position">
+	    Software Engineer
+	  </span>
+
+	  <span class="startDate">
+	    Jun 2010
+	  </span>
+	  <span class="endDate">
+	    - Feb 2014
+	  </span>
+
+	  <div class="summary">
+	    <p>
+              Provides a suite of tools that allow users to track
+              social sharing, primarily composed of APIs to create
+              links, data-storage/retrieval, and an analytics
+              dashboard.  Hired as engineer #2.
+            </p>
+	  </div>
+	  <ul class="highlights">
+            <li>
+              Designed and built highly available infrastructure 
+              and APIs, which powered the entire backend, and a 
+              real-time data pipeline with RabbitMQ and Redis, 
+              which cut operational costs $10,000/month;
+            </li>
+            <li>
+              Led the operations roadmap, automating 20 bespoke
+              systems and greatly improving reliability, achieving 
+              four 9s of uptime for a year;
+            </li>
+            <li>
+              Increased developer speed and bus factor by building 
+              fast development environment setups;
+            </li>
+            <li>
+              Improved team morale and camaraderie by organizing 
+              weekly “Lunch and Learns” and outside work activities;
+            </li>
+            <li>
+              Enhanced organization-wide product clarity by
+              maintaining roadmaps and leading standups; and
+            </li>
+            <li>
+              Managed a team of 5 engineers (2 operations + 3 developers).
+            </li>
+	  </ul>
+	</section>
+	<section class="item">
+	  <header>
+	    <h3 class="name">Motally (acquired by Nokia)</h3>
+	  </header>
+	  <span class="position">
+	    Software Engineer
+	  </span>
+
+	  <span class="startDate">
+	    Mar 2010
+	  </span>
+	  <span class="endDate">
+	    - Jun 2010
+	  </span>
+
+	  <div class="summary">
+	    <p>Provided website analytics specifically for mobile clients that were, at the time, underrepresented by tools like Google Analytics.</p>
+	  </div>
+	  <ul class="highlights">
+	    <li>Developed a data processing pipeline using Hadoop, AWS, and Pig.</li>
+	  </ul>
+	</section>
+	<section class="item">
+	  <header>
+	    <h3 class="name">LeapFrog</h3>
+	  </header>
+	  <span class="position">
+	    Software Engineer
+	  </span>
+
+	  <span class="startDate">
+	    Dec 2007
+	  </span>
+	  <span class="endDate">
+	    - Mar 2010
+	  </span>
+          
+	  <div class="summary">
+	    <p>
+              Creates technology-based educational products.
+            </p>
+	  </div>
+          
+	  <ul class="highlights">
+	    <li>
+              Collaborated in design and implementation of data APIs built
+	      in Java and PL/SQL;
+            </li>
+	    <li>
+              Developed a web-based database interface for data
+	      migration; and
+            </li>
+	    <li>Mentored junior software engineers.</li>
+	  </ul>
+	</section>
+      </section>
+      <!-- End Work Experiences -->
+
+      <!-- Projects -->
+      <section id="projects">
+	<h2>Projects</h2>
+	<div class="item">
+          <header>
+	    <a href="https://github.com/nathanmarz/cascalog/pull/256">Cascalog In-memory Platform</a>
+          </header>
+          <div class="summary">
+            <p>
+              Cascalog is a powerful data analysis tool that was 
+              originally just for Cascading.  I have continued 
+              the work of Sam Ritchie to allow Cascalog to 
+              support platforms besides Cascading.
+            </p>
+          </div>
+	</div>
+	<div class="item">
+          <header>
+	    <a href="http://ontheway.bennetthiles.com/">On the way</a>
+          </header>
+          <div class="summary">
+            <p>
+              A webapp that helps you find places to stop that aren't
+              out of your way, when you are en-route to a destination.  
+              It's built with Clojurescript and is open source.
+            </p>
+          </div>
+	</div>
+      </section>
+      <!-- End Projects -->
+
+      <!-- Education -->
+      <section id="education">
+	<h2>Education</h2>
+	<div class="item">
+	  <header>
+	    <h3 class="name">U.C. Davis</h3>
+	  </header>
+
+	  <div class="dates">
+	    <span class="startDate">
+	      Aug 2002
+	    </span>
+	    <span class="endDate">
+	      - May 2007
+	    </span>
+	  </div>
+
+	  <div class="qualification">
+	    <span class="studyType">
+	      Bachelor of Science
+	    </span>
+
+	    <span class="area">
+	      - Electrical Engineer
+	    </span>
+
+	  </div>
+        </div>
+
+	<div class="item">
+	  <header>
+	    <h3 class="name"><a href="https://www.coursera.org/course/ml">Coursera Machine Learning Class</a></h3>
+	  </header>
+
+	  <div class="dates">
+	    <span class="startDate">
+	      Sept 2014
+	    </span>
+	    <span class="endDate">
+	      - Dec 2014
+	    </span>
+	  </div>
+
+	</div>
+      </section>
+      <!-- End Education -->
+      
+    </div>
+    
+  </body>
+</html>
